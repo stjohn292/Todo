@@ -1,25 +1,40 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import AddToDo from "./AddToDo";
+import ToDoList from "./ToDoList";
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      currentItemText: "Hi",
+      todos: ["Add a todo", "Remove todo"]
+    };
+  }
+
+  resetAll = () => {
+    this.setState({ currentItemText: "", todos: [] });
+  };
+
+  setText = text => {
+    this.setState({ currentItemText: text });
+    //sets currentItemText to whatever you (pass in)
+  };
+
+  addNew = text => {
+    const newTodos = [...this.state.todos, text];
+    this.setState({ todos: newTodos });
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <AddToDo
+          text={this.state.currentItemText}
+          setText={this.setText}
+          addNew={this.addNew}
+        />{" "}
+        <ToDoList todos={this.state.todos} />
+        <button onClick={this.resetAll}>Reset All</button>
       </div>
     );
   }
