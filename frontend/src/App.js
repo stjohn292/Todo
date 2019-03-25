@@ -10,7 +10,11 @@ class App extends Component {
       todos: ["Add a todo", "Remove todo"]
     };
   }
-
+  componentDidMount() {
+    fetch("https://localhost:44387/api/todos") //from console, will show 'value 1 value 2'
+      .then(res => res.json())
+      .then(json => /*console.log(json));*/ this.setState({ todos: json }));
+  }
   resetAll = () => {
     this.setState({ currentItemText: "", todos: [] });
   };
@@ -21,9 +25,25 @@ class App extends Component {
   };
 
   addNew = text => {
-    const newTodos = [...this.state.todos, text];
-    this.setState({ todos: newTodos });
+    fetch("http://localhost:44387/api/todos", {
+      method: "POST",
+      body: JSON.stringify(text),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    })
+      .then(res => {
+        if (res.ok) {
+          const newTodos = [...this.state.todos, text];
+          this.setState({ todos: newTodos });
+        }
+      })
+      .catch(err => {
+        console.error(err);
+      });
   };
+
+  //addnew takes text, makes 'newTodos', which is an array of the todos already there and the text
 
   render() {
     return (
@@ -41,3 +61,8 @@ class App extends Component {
 }
 
 export default App;
+/*addNew = text => {
+  const newTodos = [...this.state.todos, text];
+  this.setState({ todos: newTodos });
+  //addnew takes text, makes 'newTodos', which is an array of the todos already there and the text
+};*/

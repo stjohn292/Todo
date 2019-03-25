@@ -1,0 +1,17 @@
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.Tests.deps.json
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.Tests.runtimeconfig.json
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.Tests.runtimeconfig.dev.json
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.Tests.dll
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.dll
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.pdb
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.AssemblyInfoInputs.cache
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.AssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.csproj.CopyComplete
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\bin\Debug\netcoreapp2.1\Todo.Tests.pdb
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.dll
+C:\Users\WeCanCodeIT\source\repos\todo\backend\Todo.Tests\obj\Debug\netcoreapp2.1\Todo.Tests.pdb
